@@ -1,0 +1,26 @@
+{
+    "name": "GuitarExerciseTracker",
+    "version": "0.0.1",
+    "description": "A basic web app for guitar teachers to distribute exercises to students.",
+    "author": "David Young <dcyoung3@illinois.edu>",
+    "contributors": [{
+        "name": "David Young",
+        "email": "dcyoung@illinois.edu"
+    }],
+    "scripts": {
+        "start": "node index.js"
+    },
+    "main": "app/app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcyoung/guitar-exercise-tracker"
+    },
+    "bugs": {
+        "url": "https://github.com/dcyoung/guitar-exercise-tracker/issues"
+    },
+    "dependencies": {
+        "vexflow": "^1.2.69"
+    },
+    "private": true,
+    "license": "MIT"
+}
